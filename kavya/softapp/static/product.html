@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <body style= "background-image: url(bjimg.jpg)" align="center">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> People </title>
+        <style type="text/css">
+            *  {
+                margin: 0;
+                padding: 0;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            }
+            .navbar {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                color: #747778;
+                font-size: 41px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            
+            }
+            
+            span {
+                color: rgb(252, 252, 252);
+            }
+            form {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color:rgba(255, 255, 255, 0.2);
+            } 
+            ::placeholder {
+                color: white;
+            }
+            form button {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color: white;
+                border-radius: 10px;
+                background: rgba(255, 255, 255, 0.2);
+                cursor: pointer;
+            }
+            .navbar li {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            .navbar li:hover {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color:rgba(255, 255, 255, 0.2);
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .image {
+                position: relative;
+                border: 0;
+                top: 70px;
+                background: transparent;
+            }
+            .image table {
+                border: 0;
+                color: white;
+                position: relative;
+                left: 150px;
+            }
+            .image table img {
+                height: 140px;
+                width: 140px;
+                border: 2px solid white;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .image table td {
+                color: #0813f4;
+            }
+            footer {
+                background-color: #9c9da1;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo">A<span>PPLE </span>S<span>OLUTIONS</span></h1>
+            <ul>
+                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/home.html"> Home </a></li>
+                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/product.html"> Products </a></li>
+                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/people.html" class="bg-people"> People </a></li>
+                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="image">
+            <table cellspacing="20"> 
+                <tr align="center">
+                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\photo.png"> </td>
+                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\KMK PHOTO.jpg"> </td>
+                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\Screenshot 2024-04-26 231245.png"> </td>
+                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\Screenshot 2024-04-26 231334.png"> </td>
+                    
+                </tr>
+                <tr align="center">
+                    <th> VAISHNAVI </th>
+                    <th> MOHAN KRISHNA </th>
+                    <th> DINISHA </th>
+                    <th> BADRINATH </th>
+                </tr>
+                <tr align="center">
+                    <td> CEO </td>
+                    <td> CEO, Co-Founder </td>
+                    <td> CTO, Co-Founder </td>
+                    <td> Director </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <center> DESIGNED AND DEVELOPED BY KALIKIRI VAISHNAVI - 212223040081 </center>
+    </footer>
+</body>
+</head>
+</html>
