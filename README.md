@@ -186,11 +186,20 @@ home.html
         <div class="navbar">
             <h1 class="logo">A<span>PPLE </span>S<span>OLUTIONS</span></h1>
             <ul>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/home.html"> Home </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/product.html"> Products </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/people.html"> People </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/contact.html"> Contact </a></li>
+                <li class="li1"> 
+                    <a href="home.html" target="_blank">Home  |</a>
+                </li>
+                <li class="li2"> 
+                    <a href="product.html" target="_blank">Products  |</a>
+                </li>
+                <li class="li4"> 
+                    <a href="people.html" target="_blank">People  |</a>
+                </li>
+                <li class="li5"> 
+                    <a href="contact.html" target="_blank">Contact</a>
+                </li>
             </ul>
+
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
                 <button type="submit"> Search </button>
@@ -352,10 +361,18 @@ product.html
         <div class="navbar">
             <h1 class="logo">A<span>PPLE </span>S<span>OLUTIONS</span></h1>
             <ul>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/home.html"> Home </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/product.html" class="bg-product"> Products </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/people.html"> People </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/contact.html"> Contact </a></li>
+                <li class="li1"> 
+                    <a href="home.html" target="_blank">Home  |</a>
+                </li>
+                <li class="li2"> 
+                    <a href="product.html" target="_blank">Products  |</a>
+                </li>
+                <li class="li4"> 
+                    <a href="people.html" target="_blank">People  |</a>
+                </li>
+                <li class="li5"> 
+                    <a href="contact.html" target="_blank">Contact</a>
+                </li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -546,10 +563,18 @@ people.html
         <div class="navbar">
             <h1 class="logo">A<span>PPLE </span>S<span>OLUTIONS</span></h1>
             <ul>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/home.html"> Home </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/product.html"> Products </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/people.html" class="bg-people"> People </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/contact.html"> Contact </a></li>
+                <li class="li1"> 
+                    <a href="home.html" target="_blank">Home  |</a>
+                </li>
+                <li class="li2"> 
+                    <a href="product.html" target="_blank">Products  |</a>
+                </li>
+                <li class="li4"> 
+                    <a href="people.html" target="_blank">People  |</a>
+                </li>
+                <li class="li5"> 
+                    <a href="contact.html" target="_blank">Contact</a>
+                </li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -559,10 +584,10 @@ people.html
         <div class="image">
             <table cellspacing="20"> 
                 <tr align="center">
-                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\photo.png"> </td>
-                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\KMK PHOTO.jpg"> </td>
-                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\Screenshot 2024-04-26 231245.png"> </td>
-                    <td> <img src="C:\Users\admin\softweb\kavya\softapp\static\Screenshot 2024-04-26 231334.png"> </td>
+                    <td> <img src="photo.png"> </td>
+                    <td> <img src="KMK PHOTO.jpg"> </td>
+                    <td> <img src="Screenshot 2024-04-26 231245.png"> </td>
+                    <td> <img src="Screenshot 2024-04-26 231334.png"> </td>
                     
                 </tr>
                 <tr align="center">
@@ -573,8 +598,8 @@ people.html
                 </tr>
                 <tr align="center">
                     <td> CEO </td>
-                    <td> CEO, Co-Founder </td>
-                    <td> CTO, Co-Founder </td>
+                    <td> Co-Founder </td>
+                    <td> Co-Founder </td>
                     <td> Director </td>
                 </tr>
             </table>
@@ -770,12 +795,20 @@ contact.html
         <br>
         <div class="navbar">
             <h1 class="logo">A<span>PPLE </span>S<span>OLUTIONS</span></h1>
-            <ul>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/home.html"> Home </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/product.html"> Products </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/people.html"> People </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/contact.html" class="bg-contact"> Contact </a></li>
-            </ul>
+                <ul>
+                    <li class="li1"> 
+                        <a href="home.html" target="_blank">Home  |</a>
+                    </li>
+                    <li class="li2"> 
+                        <a href="product.html" target="_blank">Products  |</a>
+                    </li>
+                    <li class="li4"> 
+                        <a href="people.html" target="_blank">People  |</a>
+                    </li>
+                    <li class="li5"> 
+                        <a href="contact.html" target="_blank">Contact</a>
+                    </li>
+                </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
                 <button type="submit"> Search </button>
@@ -812,9 +845,9 @@ contact.html
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (125).png>)
-![alt text](<Screenshot (126).png>)
-![alt text](<Screenshot (127).png>)
-![alt text](<Screenshot (128).png>)
+![alt text](<Screenshot (136).png>)
+![alt text](<Screenshot (140).png>)
+![alt text](<Screenshot (141).png>)
+![alt text](<Screenshot (142).png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.

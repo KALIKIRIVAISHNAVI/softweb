@@ -2,7 +2,7 @@
     <head>
         <body style= "background-image: url(bjimg.jpg)" align="center">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Product </title>
+        <title> People </title>
         <style type="text/css">
             *  {
                 margin: 0;
@@ -85,37 +85,27 @@
                 cursor: pointer;
                 border-radius: 30px;
             }
-            .container {
-                background: rgba(255, 255, 255, 0.2);
-                padding: 10px 5%;
-                padding-bottom: 100px;
-            }
-            .container .box-container {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-                gap: 20px;
-            }
-            .container .box-container .box {
-                color: white;
-                box-shadow: 0 5px 10px rgba(0,0,0,.2);
-                border-radius: 20px;
+            .image {
+                position: relative;
+                border: 0;
+                top: 70px;
                 background: transparent;
-                border: 1px solid white;
-                padding: 30px 20px;
             }
-            .container .box-container .box img {
-                height: 140px;
-                border-radius: 20px;
-            }
-            .container .box-container .box h3 {
-                color: #565454;
-                font-size: large;
-                padding: 10px 0;
-            }
-            .container .box-container .box p {
+            .image table {
+                border: 0;
                 color: white;
-                font-size: small;
-                line-height: 1.5;
+                position: relative;
+                left: 150px;
+            }
+            .image table img {
+                height: 140px;
+                width: 140px;
+                border: 2px solid white;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .image table td {
+                color: #0813f4;
             }
             footer {
                 background-color: #9c9da1;
@@ -129,72 +119,50 @@
         <div class="navbar">
             <h1 class="logo">A<span>PPLE </span>S<span>OLUTIONS</span></h1>
             <ul>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/home.html"> Home </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/product.html" class="bg-product"> Products </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/people.html"> People </a></li>
-                <li><a href="file:///C:/Users/admin/softweb/kavya/softapp/static/contact.html"> Contact </a></li>
+                <li class="li1"> 
+                    <a href="home.html" target="_blank">Home  |</a>
+                </li>
+                <li class="li2"> 
+                    <a href="product.html" target="_blank">Products  |</a>
+                </li>
+                <li class="li4"> 
+                    <a href="people.html" target="_blank">People  |</a>
+                </li>
+                <li class="li5"> 
+                    <a href="contact.html" target="_blank">Contact</a>
+                </li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
                 <button type="submit"> Search </button>
             </form>
         </div>
-        <div class="container">
-            <div class="box-container">
-                <div class="box">
-                    <img src="Screenshot 2024-04-26 223509.png" alt="">
-                    <h3>Apple iPhone 15 Pro Max - 1 TB - Natural Titanium  </h3>
-                    <p> ₹199,900.00
-
-                        ₹189,899.00 -₹10,001.00
-                        
-                        Free Shipping - Mumbai - Same Day Delivery
-                        Rest of India - Delivery within 3-5 working days
-                        Cashback- Select Pinelab at checkout to avail of additional cashback.
-                        Color - Natural Titanium </p>
-                </div>
-                <div class="box">
-                    <img src="Screenshot 2024-04-26 224217.png"" alt="">
-                    <h3> AirPods Max</h3>
-                    <p>₹59,900.00
-                        or
-                        ₹9,983.33/mo. for 6 mo.*
-                        Apply for Financing
-                        Free Shipping - Mumbai - Same Day Delivery
-                        Rest of India - Delivery within 3-5 working days
-                        Color - Silver </p>
-                </div>
-                <div class="box">
-                    <img src="Screenshot 2024-04-26 224857.png" alt="">
-                    <h3> Apple HomePod Mini(Space Grey) </h3>
-                    <p> ₹10,900.00
-
-                        ₹9,900.00 -₹1,000.00
-                        
-                        or
-                        ₹1,650.00/mo. for 6 mo.*
-                        Free Shipping - Mumbai - Same Day Delivery
-                        Rest of India - Delivery within 3-5 working days
-                        Color - Space Grey. </p>
-                </div>
-                <div class="box">
-                    <img src="Screenshot 2024-04-26 225618.png." alt="">
-                    <h3> iPad Pro </h3>
-                    <p> Lovable. Drawable. Magical.
-
-                        From ₹76899 </p>
-                </div>
-                <div class="box">
-                    <img src="Screenshot 2024-04-26 225212.png" alt="">
-                    <h3> Apple Vision Pro (1TB)</h3>
-                    <p> Book Now For A Better Price </p>
-                </div>
-                
-            </div>
+        <div class="image">
+            <table cellspacing="20"> 
+                <tr align="center">
+                    <td> <img src="photo.png"> </td>
+                    <td> <img src="KMK PHOTO.jpg"> </td>
+                    <td> <img src="Screenshot 2024-04-26 231245.png"> </td>
+                    <td> <img src="Screenshot 2024-04-26 231334.png"> </td>
+                    
+                </tr>
+                <tr align="center">
+                    <th> VAISHNAVI </th>
+                    <th> MOHAN KRISHNA </th>
+                    <th> DINISHA </th>
+                    <th> BADRINATH </th>
+                </tr>
+                <tr align="center">
+                    <td> CEO </td>
+                    <td> Co-Founder </td>
+                    <td> Co-Founder </td>
+                    <td> Director </td>
+                </tr>
+            </table>
         </div>
     </div>
     <footer>
-        <center>DESIGNED AND DEVELOPED BY KALIKIRI VAISHNAVI - 212223040081 </center>
+        <center> DESIGNED AND DEVELOPED BY KALIKIRI VAISHNAVI - 212223040081 </center>
     </footer>
 </body>
 </head>
