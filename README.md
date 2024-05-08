@@ -30,7 +30,6 @@ Publish the website in the given URL.
 ## PROGRAM:
 ```
 home.html
-
 <html>
     <head>
         <body style= "background-image: url(bjimg.jpg)" align="center">
@@ -207,9 +206,9 @@ home.html
         </div>
         <div class="content">
             <div class="text">
-                <h2> APPLE REPAIR CENTER </h2>
+                <h2> APPLE SOFTWARE SOLUTIONS </h2>
                 <br>
-                <p> Sumit an Inquiry to Get a Free Quote </p>
+                <p>A Perfect Solution For Every Problem </p>
                 <br>
                 <div>
                     <a href="#" class="login"> Log In </a>
@@ -229,7 +228,6 @@ home.html
 ```
 ```
 product.html
-
 <html>
     <head>
         <body style= "background-image: url(bjimg.jpg)" align="center">
@@ -382,52 +380,30 @@ product.html
         <div class="container">
             <div class="box-container">
                 <div class="box">
-                    <img src="Screenshot 2024-04-26 223509.png" alt="">
-                    <h3>Apple iPhone 15 Pro Max - 1 TB - Natural Titanium  </h3>
-                    <p> ₹199,900.00
-
-                        ₹189,899.00 -₹10,001.00
-                        
-                        Free Shipping - Mumbai - Same Day Delivery
-                        Rest of India - Delivery within 3-5 working days
-                        Cashback- Select Pinelab at checkout to avail of additional cashback.
-                        Color - Natural Titanium </p>
+                    <img src="omscanner.png" alt="">
+                    <h3>om-Scanner  </h3>
+                    <p> om-Scanner is a Scanning Tool for TWAIN based Scanners. It is an easy to use Tool that allows you to convert a scanned document to a PDF file or a scanned photo to a JPEG file.
+                    </p>
                 </div>
                 <div class="box">
-                    <img src="Screenshot 2024-04-26 224217.png"" alt="">
-                    <h3> AirPods Max</h3>
-                    <p>₹59,900.00
-                        or
-                        ₹9,983.33/mo. for 6 mo.*
-                        Apply for Financing
-                        Free Shipping - Mumbai - Same Day Delivery
-                        Rest of India - Delivery within 3-5 working days
-                        Color - Silver </p>
+                    <img src="dropbox.png"" alt="">
+                    <h3> Dropbox</h3>
+                    <p>Dropbox is a file hosting service operated by the American company Dropbox, </p>
                 </div>
                 <div class="box">
-                    <img src="Screenshot 2024-04-26 224857.png" alt="">
-                    <h3> Apple HomePod Mini(Space Grey) </h3>
-                    <p> ₹10,900.00
-
-                        ₹9,900.00 -₹1,000.00
-                        
-                        or
-                        ₹1,650.00/mo. for 6 mo.*
-                        Free Shipping - Mumbai - Same Day Delivery
-                        Rest of India - Delivery within 3-5 working days
-                        Color - Space Grey. </p>
+                    <img src="buffer.png" alt="">
+                    <h3> Buffer </h3>
+                    <p> Buffer is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Twitter, Facebook, Mastodon, Instagram, Instagram Stories, Pinterest, and LinkedIn </p>
                 </div>
                 <div class="box">
-                    <img src="Screenshot 2024-04-26 225618.png." alt="">
-                    <h3> iPad Pro </h3>
-                    <p> Lovable. Drawable. Magical.
-
-                        From ₹76899 </p>
+                    <img src="zapiro.png" alt="">
+                    <h3> Zaiper </h3>
+                    <p> Zapier is a company that provides integrations for web applications for use in automated workflows. </p>
                 </div>
                 <div class="box">
-                    <img src="Screenshot 2024-04-26 225212.png" alt="">
-                    <h3> Apple Vision Pro (1TB)</h3>
-                    <p> Book Now For A Better Price </p>
+                    <img src="trello.png" alt="">
+                    <h3>Trello</h3>
+                    <p> Trello is a web-based, kanban-style, list-making application and is developed by Trello Enterprise, a subsidiary of Atlassian. </p>
                 </div>
                 
             </div>
@@ -845,9 +821,9 @@ contact.html
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (136).png>)
-![alt text](<Screenshot (140).png>)
-![alt text](<Screenshot (141).png>)
-![alt text](<Screenshot (142).png>)
+![alt text](<Screenshot (149).png>)
+![alt text](<Screenshot (150).png>)
+![alt text](<Screenshot (151).png>)
+![alt text](<Screenshot (152).png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
